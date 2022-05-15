@@ -63,7 +63,7 @@ html {
 
 #heroimg {
     display: flex;
-    background-color: white;
+    background-color: gray;
     height: 150px;
     width: 350px;
     justify-content: center;
@@ -84,3 +84,43 @@ button {
     max-width: 90px;
     border-radius: 6px;
 }
+
+.information {
+    display: flex;
+    justify-content: center;
+    padding-left: 250px;
+    padding-right: 250px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    padding: 20px;
+    border-radius: 50px;
+  }
+
+.pictureboxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+  .pic {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      /* flex-direction: column; */
+      padding-left: 10px;
+      padding-right: 10px;
+  }
+
+  #pictext {
+      display: flex;
+    text-align: center;
+  }
