@@ -93,6 +93,7 @@ button {
     font-size: 36px;
     font-weight: bolder;
     color: #1f2937;
+    height: 100px;
 }
 
 img {
@@ -109,6 +110,9 @@ img {
     align-items: center;
     padding-left: 250px;
     padding-right: 250px;
+    height: 230px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
   .pic {
@@ -123,4 +127,80 @@ img {
   #pictext {
       display: flex;
     text-align: center;
+  }
+
+  .quote {
+      display: flex;
+      background-color: #e5e7eb;
+      font-size: 36px;
+      font-style: italic;
+      color: #1f2937;
+      justify-content: center;
+      padding-left: 250px;
+      padding-right: 250px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      flex-direction: column;
+}
+
+#quotethor {
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.quotecontainer {
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.calltoaction {
+    display: flex;
+    justify-content: center;
+    padding: 50px 250px;
+    height: 95px;
+    align-items: stretch;
+}
+
+.callbluebox {
+    display: flex;
+    background-color: #3882f6;
+    padding: 25px 50px;
+    align-items: center;
+    border-radius: 12px;
+    color: white;
+    width: 800px;
+    justify-content: space-around;
+
+}
+
+#callheading {
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: auto;
+}
+
+.calltext {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: start;
+}
+
+#buttontwo {
+    border: 1px;
+    border-color: white;
+    border-style: double;
+}
+
+.footer {
+    height: 72px;
+    background: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
